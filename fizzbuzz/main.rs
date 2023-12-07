@@ -18,6 +18,6 @@ fn fizz_buzz(x: u8) -> String{
 fn main() {
     // FizzBuzz implementation
     for x in 1..=101 {
-        println!("{x} {}", fizz_buzz(x));
+        println!("{} {}", x, fizz_buzz(x));
     }
 }
